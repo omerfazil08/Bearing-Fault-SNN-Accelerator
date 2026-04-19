@@ -1,0 +1,11 @@
+--- STARTING ORCHESTRATED SELF-CHECKING SIMULATION ---
+=================================================
+ VIVADO HARDWARE SELF-CHECKING RESULTS
+=================================================
+Micro-Window Accuracy (2.6ms) : 97.77%
+Micro-Counts -> TP: 1538 | TN: 1542 | FP: 33 | FN: 37
+-------------------------------------------------
+Macro-Window Accuracy (100ms) : 100%
+Macro-Counts -> TP: 21 | TN: 21 | FP: 0 | FN: 0
+=================================================
+--- END OF SIMULATION ---

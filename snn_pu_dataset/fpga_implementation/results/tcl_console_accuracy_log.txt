@@ -1,0 +1,11 @@
+--- STARTING 6-PHASE ORCHESTRATED SIMULATION ---
+=================================================
+VIVADO HARDWARE SELF-CHECKING RESULTS   
+=================================================
+Micro-Window Accuracy (32.0ms) : 89.58%
+Micro-Counts -> TP: 84 | TN: 45 | FP: 3 | FN: 12
+-------------------------------------------------
+Macro-Window Accuracy (384ms)  : 100%
+Macro-Counts -> TP: 8 | TN: 4 | FP: 0 | FN: 0
+=================================================
+--- END OF SIMULATION ---
