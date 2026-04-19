@@ -1,6 +1,6 @@
 # =====================================================================
 # MULTI-DOMAIN MASS FORENSIC EVALUATION BENCHMARK
-# Testing 240 files across 4 Operating Conditions (2 Seen, 2 Unseen)
+# Testing 480 files across 4 Operating Conditions (2 Seen, 2 Unseen)
 # Automatically adapts to Google Colab or Local VS Code environments.
 # =====================================================================
 
