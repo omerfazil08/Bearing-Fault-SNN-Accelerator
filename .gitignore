@@ -1,0 +1,12 @@
+# Python ignores
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Vivado ignores (Keep the .vhd and .xdc, ignore the build junk)
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+.Xil/

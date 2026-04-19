@@ -1,5 +1,6 @@
 # Ultra-Low Power Edge-AI for Rotorcraft Condition Monitoring (PU Dataset Phase)
 
+
 ## 1. Executive Summary
 This repository contains the advanced phase of the Spiking Neural Network (SNN) fault detection project, migrated to the highly complex, 64 kHz Paderborn University (PU) dataset. This dataset simulates a helicopter gearbox operating under extreme, fluctuating mechanical loads (1500 RPM to 900 RPM).
 
@@ -28,6 +29,8 @@ The SNN was trained exclusively on Artificial Damage (drilled/EDM faults). Howev
 
 ## 5. Implementation Metrics & Silicon Proof
 The final routed design in Vivado confirms the architecture is exceptionally stable and suited for deployment in power-starved aerospace environments.
+
+![alt text](şemaa.png)
 
 ### Target: Xilinx Artix-7 (xc7a35tcpg236-1)
 * **Dynamic Power (SNN Core):** 10 mW
