@@ -5,7 +5,7 @@
 > A hardware‑ready, integer‑only spiking neural network trained with evolutionary algorithms to detect bearing faults from raw vibration data. No DSP blocks, no floating‑point operations – pure VHDL‑friendly logic.
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![VHDL](https://img.shields.io/badge/VHDL-2008-green)]()
+[![VHDL](https://img.shields.io/badge/VHDL-2022.2-green)]()
 [![License](https://img.shields.io/badge/License-Custom%20(All%20Rights%20Reserved)-red)](LICENSE)
 
 ---
@@ -29,39 +29,6 @@ This project presents a **spiking neural network (SNN)** that:
 - **Hidden layer:** 64 Leaky‑Integrate‑and‑Fire (LIF) neurons with bit‑shift leakage
 - **Output:** binary spike that is aggregated over multiple macro‑windows
 - **Decision:** an M‑of‑N coincidence detector suppresses spurious false alarms
-
----
-
-## Repository Structure
-Bearing-Fault-SNN-Accelerator/
-├── README.md ← you are here
-├── requirements.txt ← Python dependencies
-├── LICENSE
-│
-├── src/ ← Training & evaluation
-│ ├── train.py ← Main training script (GA + fine‑tune)
-│ ├── evaluate.py ← Macro‑window evaluation & sweeps
-│ ├── model.py ← PyTorch SNN model + STE quantisation
-│ └── utils.py ← Data loading, feature extraction
-│
-├── vhdl/ ← Synthesizable VHDL
-│ ├── neuron.vhd ← Single LIF neuron
-│ ├── layer.vhd ← Fully‑connected SNN layer
-│ ├── macro_detector.vhd ← M‑of‑N coincidence state machine
-│ └── vivado_project.tcl ← Vivado project creation script
-│
-├── data/ ← Dataset loaders & pre‑processing
-│ ├── cwru_loader.py
-│ └── pu_loader.py
-│
-├── results/ ← Saved genomes & evaluation logs
-│ ├── best_genome_cwru.npy
-│ ├── best_genome_pu.npy
-│ └── macro_stats.json
-│
-└── notebooks/ ← Jupyter tutorials
-└── quick_start.ipynb
-
 
 ---
 
