@@ -63,8 +63,8 @@
  * **Simulation Results:**
  ![alt text](cwru_simulation_waveform.png)
  * **Post Implemenation Utilization Results:**
- ![alt text](cwru_post-implemenation_power.png)
- * **Post Implemenation Timing Power:**
+ ![alt text](cwru_post-implemenation_utilization.png)
+ * **Post Implemenation Power Results:**
  ![alt text](cwru_post-implemenation_power.png)
  * **Post Implemenation Timing Results:**
- ![alt text](cwru_post-implemenation_timing.png)
+![alt text](cwru_post-implemenation_timing.png)

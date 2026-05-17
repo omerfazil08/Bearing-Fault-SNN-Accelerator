@@ -56,11 +56,11 @@ Evaluated strictly across 480 chaotic, multi-domain files, including completely 
 
  ### Vivado Hardware Results:
  * **Simulation Results:**
- ![alt text](pu_simulation_waveform.png)
+ ![alt text](pu_waveform_uart_transmission.png)
  ![alt text](pu_vivado_simulation_log_results.png)
  * **Post Implemenation Utilization Results:**
- ![alt text](pu_post-implemenation_power.png)
- * **Post Implemenation Timing Power:**
+ ![alt text](pu_post-implemenation_utilization.png)
+ * **Post Implemenation Power Results:**
  ![alt text](pu_post-implemenation_power.png)
  * **Post Implemenation Timing Results:**
- ![alt text](pu_post-implemenation_timing.png)
+![alt text](pu_post-implemenation_timing-2.png)
