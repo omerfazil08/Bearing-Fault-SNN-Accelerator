@@ -25,9 +25,9 @@ Unlike standard digital IP cores, this architecture bridges the analog-digital d
 The design includes a robust VHDL testbench environment that replays thousands of baseline and faulted mechanical vibration samples through the RTL simulation to guarantee hardware-software mathematical equivalence.
 
 **Self-Checking Simulation Results:**
-*(Insert your screenshot of the Vivado TCL Console showing the CWRU accuracy printouts here)*
+![alt text](image.png)
 
 **Analog Ingestion & Spiking Waveform:**
 The waveform below illustrates the digital translation of the analog input wave, the membrane voltage accumulation inside the 8 hidden neurons, and the ultimate firing of the `master_alarm` upon detecting a physical anomaly.
 
-*(Insert your screenshot of the Vivado Waveform showing the ADC input data and the SNN spike triggers here)*
+![alt text](simulation_waveform.png)

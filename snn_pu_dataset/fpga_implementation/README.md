@@ -31,9 +31,9 @@ The design includes a fully automated, self-checking VHDL testbench (`tb_neuromo
 * **Micro-Window Accuracy (32.0ms):** 89.58% 
 * **Macro-Window Debouncer Accuracy (384ms):** 100%
 
-*(Insert your screenshot of the TCL Console printout here)*
+![alt text](vivado_simulation_log_results.png)
 
 **Telemetry Verification:**
 The waveform below demonstrates the exact millisecond the neuromorphic core detects an Inner Race fault and triggers the UART state machine to transmit the `0xFF` critical alarm packet.
 
-*(Insert your screenshot of the Vivado Waveform showing the UART transmission here)*
+![alt text](waveform_uart_transmission.png)
