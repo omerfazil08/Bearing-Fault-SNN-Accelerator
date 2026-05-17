@@ -53,3 +53,14 @@ Evaluated strictly across 480 chaotic, multi-domain files, including completely 
 | **Total Combined (Inner + Outer) Macro-Accuracy** | 99.64% |
 
 *Note: The only boundary limitation observed was the KI04 natural inner-race fault at 900 RPM. Due to the smoothed edges of natural fatigue combined with low-speed kinematics, the impact energy fell below the strict hardware noise thresholds, physically validating the system's robust 100% false-alarm rejection capability.*
+
+ ### Vivado Hardware Results:
+ * **Simulation Results:**
+ ![alt text](pu_simulation_waveform.png)
+ ![alt text](pu_vivado_simulation_log_results.png)
+ * **Post Implemenation Utilization Results:**
+ ![alt text](pu_post-implemenation_power.png)
+ * **Post Implemenation Timing Power:**
+ ![alt text](pu_post-implemenation_power.png)
+ * **Post Implemenation Timing Results:**
+ ![alt text](pu_post-implemenation_timing.png)
